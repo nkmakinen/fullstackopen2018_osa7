@@ -1,0 +1,7 @@
+POST https://intense-castle-31982.herokuapp.com/api/login
+content-type: application/json
+
+{
+    "username": "niko",
+    "password": "231"
+}
