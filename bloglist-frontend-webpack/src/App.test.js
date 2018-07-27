@@ -5,7 +5,7 @@ import Blog from './components/Blog'
 jest.mock('./services/blogs')
 import blogService from './services/blogs'
 
-describe('<App />', () => {
+describe.skip('<App />', () => {
     let app
 
     describe('when user is not logged in', () => {
